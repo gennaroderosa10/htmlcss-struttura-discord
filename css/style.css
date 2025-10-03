@@ -46,6 +46,10 @@ li {
     background-color: grey;
 }
 
+.bg-green {
+    background-color: green;
+}
+
 .min-h-500 {
     min-height: 500px;
     height: 0;
@@ -113,10 +117,7 @@ li {
     min-height: 400px;
 }
 
-.sezione1bis {
-    min-height: 400px;
-    max-width: 500px;
-}
+
 
 .div-sec-1 {
     min-width: 800px;
@@ -161,4 +162,9 @@ li {
 
 .sezione2-bis {
     flex-direction: row-reverse;
+}
+
+.sezione-4 {
+    min-height: 800px;
+    max-width: 1000px;
 }
