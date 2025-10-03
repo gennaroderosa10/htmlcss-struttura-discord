@@ -50,6 +50,10 @@ li {
     background-color: green;
 }
 
+.bg-black {
+    background-color: black;
+}
+
 .min-h-500 {
     min-height: 500px;
     height: 0;
@@ -167,4 +171,10 @@ li {
 .sezione-4 {
     min-height: 800px;
     max-width: 1000px;
+}
+
+.footer-column {
+    border: 1px dashed white;
+    justify-content: space-evenly;
+    flex-basis: 25%;
 }
