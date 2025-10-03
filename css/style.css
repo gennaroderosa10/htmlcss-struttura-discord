@@ -111,6 +111,9 @@ li {
     flex-grow: 0;
 }
 
+.border-bottom-white {
+    border-bottom: 1px solid white;
+}
 
 /* x */
 .header-nav {
