@@ -1,0 +1,75 @@
+/* reset */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* DEBUG */
+
+
+/* utility */
+.bg-blue {
+    background-color: blue;
+}
+
+.bg-pink {
+    background-color: pink;
+}
+
+.bg-yellow{
+    background-color: yellow;
+
+}
+
+.bg-brown{
+    background-color: brown;
+}
+
+
+.min-h-500 {
+    min-height: 500px;
+    height: 0
+    ;
+}
+
+.flex {
+    display: flex;
+}
+
+.justify-content-center{
+    justify-content: center;
+}
+
+.min-h-100{
+    min-height: 100px;
+}
+
+.flex-column{
+    flex-direction: column;
+}
+
+
+/* x */
+
+.root {
+    margin: 0 auto;
+    /* max-width: 200px; */
+    width: 100%;
+}
+
+
+.sidebar {
+    /* width: 30%; */
+    flex-basis: calc(100% / 4);
+
+}
+
+.main {
+    /* width: 70%; */
+    flex-basis: calc((100% / 4) * 2);
+}
+
+.advisor{
+  flex-basis: calc(100% / 4);
+}
